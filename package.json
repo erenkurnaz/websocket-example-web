@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "format": "prettier --write .",
-    "cypress": "cypress open",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -21,12 +20,10 @@
     "classnames": "^2.3.1",
     "next": "12.1.0",
     "notistack": "^2.0.3",
-    "postcss": "^8.4.12",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-scroll": "^1.8.6",
     "socket.io-client": "^4.4.1",
-    "tailwindcss": "^3.0.23",
     "zustand": "^3.7.1"
   },
   "lint-staged": {
@@ -39,7 +36,6 @@
     "@erenkurnaz/eslint-config-react-ts": "^1.0.1",
     "@types/node": "17.0.22",
     "@types/react": "17.0.42",
-    "cypress": "^9.5.2",
     "eslint": "8.12.0",
     "eslint-plugin-cypress": "^2.12.1",
     "husky": "^7.0.0",
