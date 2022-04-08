@@ -1,0 +1,8 @@
+.messageLine {
+  padding: 5px 10px;
+  width: 90%;
+  &.me {
+    margin-left: auto;
+    background-color: #e3ffe3;
+  }
+}

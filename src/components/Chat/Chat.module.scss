@@ -1,0 +1,24 @@
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.screen {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content 1fr max-content;
+  width: 100%;
+  height: 600px;
+  padding-top: 15px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 0 9px 1px #eaeaea;
+}
+
+.messagesBox {
+  padding: 15px 5px;
+  height: 100%;
+  overflow-y: auto;
+}
